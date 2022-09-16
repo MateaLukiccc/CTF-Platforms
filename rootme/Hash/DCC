@@ -1,0 +1,5 @@
+Save 15a57c279ebdfea574ad1ff91eb6ef0c:administrator as hash.txt
+
+Decrypt the hash using Hashcat by run the following command hashcat -m 1100 hash.txt /usr/share/wordlists/rockyou.txt --force -O
+
+Tip:we have example hashes here https://hashcat.net/wiki/doku.php?id=example_hashes

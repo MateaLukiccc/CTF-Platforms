@@ -1,0 +1,4 @@
+1.Use crackstation and get the password
+
+2.hashcat -m 0 hash.txt rockyou.txt --force -O --show
+Add --show after to get just password row

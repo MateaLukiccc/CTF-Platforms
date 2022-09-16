@@ -1,0 +1,3 @@
+Save $DCC2$10240#Administrator#23d97555681813db79b2ade4b4a6ff25 as hash.txt
+
+Run hashcat -m 2100 hash.txt rockyou.txt --force -O and get the password

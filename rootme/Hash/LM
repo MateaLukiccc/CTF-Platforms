@@ -1,0 +1,3 @@
+Save d3bf255c530633b9aad3b435b51404ee as hash.txt
+
+Run command hashcat -m 3000 hash.txt rockyou.txt --force -O to get the password

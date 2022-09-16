@@ -1,0 +1,4 @@
+Solving:
+1)We need to read n and e from the file and create publoic key in pem format
+after that we need to create md5 hash of the base64 parte in public key
+PCXrmCkYWyRRx3bf+zqEydW9/trbFToMDx6fAvmeCDw

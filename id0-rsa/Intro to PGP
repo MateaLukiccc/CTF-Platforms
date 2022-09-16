@@ -1,0 +1,2 @@
+to load key ->  gpg --import [file]
+to use key ->   cat signed_message.asc | gpg -d

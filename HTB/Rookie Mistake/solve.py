@@ -27,7 +27,7 @@ def roots_of_unity(e, phi, n, rounds=250):
     return roots, phi_coprime
 
 n=p
-phi = p - 1
+phi = n - 1
 
 # Find e'th roots of unity modulo n
 roots, phi_coprime = roots_of_unity(e, phi, n)

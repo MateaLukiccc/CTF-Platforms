@@ -1,9 +1,10 @@
 from Crypto.PublicKey import RSA
 from Crypto.Util.number import inverse,long_to_bytes
 
-f = open(r'C:\Users\lukic\Desktop\HTB\RsaCtfTool\pubkey.pem','r')
+f = open(r'C:\Users\lukic\Desktop\CTF-Platforms\HTB\RsaCtfTool\pubkey.pem','r')
 key = RSA.importKey(f.read())
 
+#print(key.n)  n=p^3
 
 p1=10410080216253956216713537817182443360779235033823514652866757961082890116671874771565125457104853470727423173827404139905383330210096904014560996952285911
 p2=p1

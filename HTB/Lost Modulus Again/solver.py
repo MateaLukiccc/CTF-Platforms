@@ -1,6 +1,9 @@
 from math import gcd
 from Crypto.Util.number import long_to_bytes,bytes_to_long
-from primefac import pollard_pm1
+'''
+Franklin Reinter(Copersmith) short-pad attack
+e=3
+'''
 
 e=3
 

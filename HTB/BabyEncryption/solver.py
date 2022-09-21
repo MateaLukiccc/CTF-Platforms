@@ -1,3 +1,5 @@
+"we need to invert encryption operation ct=((123 * char + 18) % 256) which is easy x=(ct-18)*inv(123) mod 256"
+
 def encryption(msg):
     ct = []
     for char in msg:
